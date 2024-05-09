@@ -1,0 +1,5 @@
+  File "/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros/server.py", line 23
+    if request.a == '';
+                      ^
+SyntaxError: invalid syntax
+

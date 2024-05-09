@@ -1,0 +1,4 @@
+[console_scripts]
+client = flask_ros.client:main
+server = flask_ros.server:main
+

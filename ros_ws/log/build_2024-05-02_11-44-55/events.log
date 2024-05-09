@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.002440] (flask_ros) JobQueued: {'identifier': 'flask_ros', 'dependencies': OrderedDict()}
+[0.002940] (flask_ros) JobStarted: {'identifier': 'flask_ros'}
+[0.094223] (-) TimerEvent: {}
+[0.198970] (-) TimerEvent: {}
+[0.316876] (-) TimerEvent: {}
+[0.419265] (-) TimerEvent: {}
+[0.522045] (-) TimerEvent: {}
+[0.624331] (-) TimerEvent: {}
+[0.726846] (-) TimerEvent: {}
+[0.829453] (-) TimerEvent: {}
+[0.932136] (-) TimerEvent: {}
+[1.034409] (-) TimerEvent: {}
+[1.136937] (-) TimerEvent: {}
+[1.238813] (-) TimerEvent: {}
+[1.341071] (-) TimerEvent: {}
+[1.443855] (-) TimerEvent: {}
+[1.546846] (-) TimerEvent: {}
+[1.649993] (-) TimerEvent: {}
+[1.752644] (-) TimerEvent: {}
+[1.859326] (-) TimerEvent: {}
+[1.963029] (-) TimerEvent: {}
+[2.065824] (-) TimerEvent: {}
+[2.167718] (-) TimerEvent: {}
+[2.270486] (-) TimerEvent: {}
+[2.373157] (-) TimerEvent: {}
+[2.476139] (-) TimerEvent: {}
+[2.579109] (-) TimerEvent: {}
+[2.681414] (-) TimerEvent: {}
+[2.786042] (-) TimerEvent: {}
+[2.887951] (-) TimerEvent: {}
+[2.990654] (-) TimerEvent: {}
+[3.096186] (-) TimerEvent: {}
+[3.201117] (-) TimerEvent: {}
+[3.303511] (-) TimerEvent: {}
+[3.406449] (-) TimerEvent: {}
+[3.512921] (-) TimerEvent: {}
+[3.616223] (-) TimerEvent: {}
+[3.719580] (-) TimerEvent: {}
+[3.822558] (-) TimerEvent: {}
+[3.925230] (-) TimerEvent: {}
+[4.028401] (-) TimerEvent: {}
+[4.131549] (-) TimerEvent: {}
+[4.234593] (-) TimerEvent: {}
+[4.337079] (-) TimerEvent: {}
+[4.358045] (flask_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/flask_ros', 'build', '--build-base', '/home/woni/worskspace/midterm/ros_ws/build/flask_ros/build', 'install', '--record', '/home/woni/worskspace/midterm/ros_ws/build/flask_ros/install.log', '--install-scripts', '$base/lib/flask_ros', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/woni/worskspace/midterm/ros_ws/src/flask_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'woni', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_AGENT_PID': '894', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/woni', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/woni/worskspace/midterm/ros_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '633', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/woni/worskspace/midterm/ros_ws/install:/home/woni/worskspace/midterm/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'woni', 'JOURNAL_STREAM': '8:29209', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'woni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/woni/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/thing-won:@/tmp/.ICE-unix/971,unix/thing-won:/tmp/.ICE-unix/971', 'INVOCATION_ID': '51c1d59725ee4de1b045b03915027315', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e3d4c8bd_8c02_449f_8375_498076de757a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.182', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/woni/worskspace/midterm/ros_ws/install/flask_ros:/home/woni/worskspace/midterm/ros2_ws/install/py_srvcli:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/woni/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/woni/worskspace/midterm/ros_ws/build/flask_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/woni/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/woni/worskspace/midterm/ros_ws/build/flask_ros/prefix_override:/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages:/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages:/home/woni/worskspace/midterm/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[4.437890] (-) TimerEvent: {}
+[4.540684] (-) TimerEvent: {}
+[4.642766] (-) TimerEvent: {}
+[4.745499] (-) TimerEvent: {}
+[4.847490] (-) TimerEvent: {}
+[4.951540] (-) TimerEvent: {}
+[5.056046] (-) TimerEvent: {}
+[5.159244] (-) TimerEvent: {}
+[5.263924] (-) TimerEvent: {}
+[5.369023] (-) TimerEvent: {}
+[5.472910] (-) TimerEvent: {}
+[5.585909] (-) TimerEvent: {}
+[5.697262] (-) TimerEvent: {}
+[5.800608] (-) TimerEvent: {}
+[5.910364] (-) TimerEvent: {}
+[6.024102] (-) TimerEvent: {}
+[6.129596] (-) TimerEvent: {}
+[6.232419] (-) TimerEvent: {}
+[6.335696] (-) TimerEvent: {}
+[6.437987] (-) TimerEvent: {}
+[6.544526] (-) TimerEvent: {}
+[6.647063] (-) TimerEvent: {}
+[6.724066] (flask_ros) StdoutLine: {'line': b'running egg_info\n'}
+[6.729447] (flask_ros) StdoutLine: {'line': b'writing ../../build/flask_ros/flask_ros.egg-info/PKG-INFO\n'}
+[6.732528] (flask_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/flask_ros/flask_ros.egg-info/dependency_links.txt\n'}
+[6.735531] (flask_ros) StdoutLine: {'line': b'writing entry points to ../../build/flask_ros/flask_ros.egg-info/entry_points.txt\n'}
+[6.737574] (flask_ros) StdoutLine: {'line': b'writing requirements to ../../build/flask_ros/flask_ros.egg-info/requires.txt\n'}
+[6.739196] (flask_ros) StdoutLine: {'line': b'writing top-level names to ../../build/flask_ros/flask_ros.egg-info/top_level.txt\n'}
+[6.747673] (-) TimerEvent: {}
+[6.850457] (-) TimerEvent: {}
+[6.952724] (-) TimerEvent: {}
+[6.977075] (flask_ros) StdoutLine: {'line': b"reading manifest file '../../build/flask_ros/flask_ros.egg-info/SOURCES.txt'\n"}
+[6.990048] (flask_ros) StdoutLine: {'line': b"writing manifest file '../../build/flask_ros/flask_ros.egg-info/SOURCES.txt'\n"}
+[6.992740] (flask_ros) StdoutLine: {'line': b'running build\n'}
+[6.993955] (flask_ros) StdoutLine: {'line': b'running build_py\n'}
+[7.005274] (flask_ros) StdoutLine: {'line': b'copying flask_ros/client.py -> /home/woni/worskspace/midterm/ros_ws/build/flask_ros/build/lib/flask_ros\n'}
+[7.009115] (flask_ros) StdoutLine: {'line': b'running install\n'}
+[7.014742] (flask_ros) StdoutLine: {'line': b'running install_lib\n'}
+[7.021360] (flask_ros) StdoutLine: {'line': b'copying /home/woni/worskspace/midterm/ros_ws/build/flask_ros/build/lib/flask_ros/client.py -> /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros\n'}
+[7.032324] (flask_ros) StdoutLine: {'line': b'byte-compiling /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros/client.py to client.cpython-38.pyc\n'}
+[7.050051] (flask_ros) StderrLine: {'line': b'  File "/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros/client.py", line 37\n'}
+[7.051587] (flask_ros) StderrLine: {'line': b'    global minimal_client\n'}
+[7.052565] (flask_ros) StderrLine: {'line': b'    ^\n'}
+[7.053050] (-) TimerEvent: {}
+[7.054575] (flask_ros) StderrLine: {'line': b"SyntaxError: name 'minimal_client' is used prior to global declaration\n"}
+[7.056149] (flask_ros) StderrLine: {'line': b'\n'}
+[7.056699] (flask_ros) StdoutLine: {'line': b'running install_data\n'}
+[7.058318] (flask_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.069788] (flask_ros) StdoutLine: {'line': b"removing '/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[7.073608] (flask_ros) StdoutLine: {'line': b'Copying ../../build/flask_ros/flask_ros.egg-info to /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros-0.0.0-py3.8.egg-info\n'}
+[7.082309] (flask_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[7.154630] (-) TimerEvent: {}
+[7.209453] (flask_ros) StdoutLine: {'line': b'Installing client script to /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/flask_ros\n'}
+[7.212787] (flask_ros) StdoutLine: {'line': b'Installing server script to /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/flask_ros\n'}
+[7.216177] (flask_ros) StdoutLine: {'line': b"writing list of installed files to '/home/woni/worskspace/midterm/ros_ws/build/flask_ros/install.log'\n"}
+[7.255801] (-) TimerEvent: {}
+[7.271579] (flask_ros) CommandEnded: {'returncode': 0}
+[7.347976] (flask_ros) JobEnded: {'identifier': 'flask_ros', 'rc': 0}
+[7.356219] (-) EventReactorShutdown: {}

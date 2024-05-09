@@ -1,0 +1,25 @@
+[5.868s] Invoking command in '/home/woni/worskspace/midterm/ros_ws/src/flask_ros': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/woni/worskspace/midterm/ros_ws/build/flask_ros/prefix_override:/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/flask_ros build --build-base /home/woni/worskspace/midterm/ros_ws/build/flask_ros/build install --record /home/woni/worskspace/midterm/ros_ws/build/flask_ros/install.log --install-scripts $base/lib/flask_ros --single-version-externally-managed install_data
+[7.050s] running egg_info
+[7.060s] writing ../../build/flask_ros/flask_ros.egg-info/PKG-INFO
+[7.063s] writing dependency_links to ../../build/flask_ros/flask_ros.egg-info/dependency_links.txt
+[7.066s] writing entry points to ../../build/flask_ros/flask_ros.egg-info/entry_points.txt
+[7.076s] writing requirements to ../../build/flask_ros/flask_ros.egg-info/requires.txt
+[7.078s] writing top-level names to ../../build/flask_ros/flask_ros.egg-info/top_level.txt
+[7.306s] reading manifest file '../../build/flask_ros/flask_ros.egg-info/SOURCES.txt'
+[7.312s] writing manifest file '../../build/flask_ros/flask_ros.egg-info/SOURCES.txt'
+[7.314s] running build
+[7.315s] running build_py
+[7.317s] copying flask_ros/server.py -> /home/woni/worskspace/midterm/ros_ws/build/flask_ros/build/lib/flask_ros
+[7.320s] running install
+[7.325s] running install_lib
+[7.332s] copying /home/woni/worskspace/midterm/ros_ws/build/flask_ros/build/lib/flask_ros/server.py -> /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros
+[7.336s] byte-compiling /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros/server.py to server.cpython-38.pyc
+[7.346s] running install_data
+[7.348s] running install_egg_info
+[7.355s] removing '/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros-0.0.0-py3.8.egg-info' (and everything under it)
+[7.371s] Copying ../../build/flask_ros/flask_ros.egg-info to /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros-0.0.0-py3.8.egg-info
+[7.379s] running install_scripts
+[7.475s] Installing client script to /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/flask_ros
+[7.478s] Installing server script to /home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/flask_ros
+[7.481s] writing list of installed files to '/home/woni/worskspace/midterm/ros_ws/build/flask_ros/install.log'
+[7.531s] Invoked command in '/home/woni/worskspace/midterm/ros_ws/src/flask_ros' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/woni/worskspace/midterm/ros_ws/build/flask_ros/prefix_override:/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/flask_ros build --build-base /home/woni/worskspace/midterm/ros_ws/build/flask_ros/build install --record /home/woni/worskspace/midterm/ros_ws/build/flask_ros/install.log --install-scripts $base/lib/flask_ros --single-version-externally-managed install_data

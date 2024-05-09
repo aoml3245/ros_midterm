@@ -1,0 +1,5 @@
+  File "/home/woni/worskspace/midterm/ros_ws/install/flask_ros/lib/python3.8/site-packages/flask_ros/client.py", line 37
+    global minimal_client
+    ^
+SyntaxError: name 'minimal_client' is used prior to global declaration
+
