@@ -1,18 +1,33 @@
 0. you have to setup the ros foxy environment, nodejs, npm environment and python
+   
 	pip install flask_cors flask
 	
-1. open three terminal (A, B, C)
-2. build the our package
+2. open three terminal (A, B, C)
+   
+4. build the our package
+   
 	cd {your_ros_workspace}
+
 	colcon build
+
 2. source the ros setup(in ros_ws folder)
+   
 	[terminal A, B] source /opt/ros/foxy/setup.bash
+
 	[terminal A, B] source {git_folder}/ros_ws/install/setup.bash
-3. run the ros_client and ros_server
+
+4. run the ros_client and ros_server
+   
 	[terminal A] ros2 run flask_ros server
+
 	[terminal B] ros2 run flask_ros client
-4. connect to pcb board( you need to unregister wifi, and the board must be ap mode with 192.168.0.1)
-5. run the node web(in web folder)
+
+6. connect to pcb board( you need to unregister wifi, and the board must be ap mode with 192.168.0.1)
+   
+8. run the node web(in web folder)
+   
 	[terminal C] npm i
+
 	[terminal C] npm start
-6. open web and enjoy
+
+10. open web and enjoy
