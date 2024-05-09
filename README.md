@@ -4,9 +4,7 @@
 	
 2. open three terminal (A, B, C)
    
-4. build the our package
-   
-	cd {your_ros_workspace}
+4. build the our package(in ros_ws_folder)
 
 	colcon build
 
