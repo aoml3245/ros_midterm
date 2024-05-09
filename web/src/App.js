@@ -9,10 +9,10 @@ function App() {
   const handleKeyDown = (event) => {
     switch (event.key) {
       case "ArrowLeft":
-        sendDirection("LEFT");
+        sendDirection("1");
         break;
       case "ArrowRight":
-        sendDirection("RIGHT");
+        sendDirection("2");
         break;
       default:
         break;
@@ -21,7 +21,7 @@ function App() {
 
   // 키보드 입력 이벤트 핸들러
   const handleKeyUp = (event) => {
-    sendDirection("UP");
+    sendDirection("0");
   };
 
   // 방향 전송 함수
